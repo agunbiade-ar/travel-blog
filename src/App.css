@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Quicksand:wght@400;500&display=swap');
+
+header {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.7rem;
+}
+
+.title,
+.btn,
+section h6 {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close {
+  color: #aaaaaa;
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: auto;
+}
